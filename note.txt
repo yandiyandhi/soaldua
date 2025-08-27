@@ -1,0 +1,11 @@
+Dengan menggunakan framework web go fiber, buatlah sistem login dengan
+menggunakan data pada redis.
+Adapun format redis adalah sebagai berikut:
+key: login_<username>
+value:
+{
+“realname”:”Aberto Doni Sianturi”,
+“email”:”adss@gmail.com”
+“password”:”f7c3bc1d808e0 . . . 441”
+}
+Note: password = fungsi sha1
